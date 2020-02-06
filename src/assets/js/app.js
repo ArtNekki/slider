@@ -1,7 +1,7 @@
-import 'what-input';
+import $ from 'jquery';
+import 'bootstrap/dist/js/bootstrap';
 
-//polyfill
-import './utils/polyfill';
 
-//modules
-// import './modules/CustomScroll';
+
+
+

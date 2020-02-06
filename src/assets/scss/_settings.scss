@@ -1,28 +1,19 @@
-// colors
+//// colors
 $white: #ffffff;
 $black: #000000;
-$gray: #eceeef;
-$gray-darken: #C3CFD6;
-$gray-dark: #373a3c;
-$blue: #6dd5f3;
-$blue-dark: #72C2E0;
-$pink: #f522ff;
-$purple: #5e7af4;
+$orange: #ff891e;
 
 //font
-$font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-$font-family--secondary: "Open sans";
+$font-family: "Open sans";
 
 //common
-$box-shadow: 0px 3px 3px rgba($black, 0.25);
-$border-radius: 4px;
-
+$border-radius: 3px;
 $enable-grid-classes:  true !default;
 
-// Grid breakpoints
-//
-// Define the minimum dimensions at which your layout will change,
-// adapting to different screen sizes, for use in media queries.
+ //Grid breakpoints
+
+ //Define the minimum dimensions at which your layout will change,
+ //adapting to different screen sizes, for use in media queries.
 
 $grid-breakpoints: (
   xs: 0,
