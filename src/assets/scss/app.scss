@@ -19,6 +19,10 @@
   position: relative;
 }
 
+.carousel-slide img {
+  object-position: -18px 0;
+}
+
 .carousel-slide-content {
   position: absolute;
   top: 0;
@@ -40,27 +44,45 @@
   }
 }
 
-
 .carousel-slide-content h2 {
-  margin-top: -10px;
-  font-size: 42px;
+  margin-top: -8px;
+  font-size: 25px;
+
+  @include media-breakpoint-up(md) {
+    margin-top: -10px;
+    font-size: 42px;
+  }
 }
 
 .carousel-slide-content p {
-  margin-top: 15px;
+  margin-top: 5px;
   margin-bottom: 15px;
-  font-size: 26px;
+  font-size: 18px;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 15px;
+    font-size: 26px;
+  }
 }
 
 .carousel-slide-links {
-  margin-top: 23px;
+  margin-top: 15px;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 23px;
+  }
 }
 
 .carousel-slide-links .btn {
-  padding: 9px 28px;
+  padding: 8px 24px;
+  font-size: 13px;
+
+  @include media-breakpoint-up(md) {
+    padding: 9px 28px;
+  }
 
   &:first-child {
-    margin-right: 17px;
+    //margin-right: 17px;
   }
 }
 
@@ -74,9 +96,13 @@
 }
 
 .carousel-indicators {
-  margin-bottom: 20px;
+  margin-bottom: 27px;
   margin-right: 0;
   margin-left: 0;
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: 20px;
+  }
 }
 
 .carousel-indicators li {
