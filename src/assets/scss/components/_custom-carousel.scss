@@ -118,6 +118,24 @@
   @include button-color($orange);
 }
 
+.custom-carousel .carousel-slide-links .btn-outline-dark {
+  border-color: $gray-dark;
+
+  &:not(:disabled):not(.disabled):active {
+    background-color: $gray-dark;
+    border-color: $gray-dark;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  &:hover {
+    background-color: $gray-dark;
+    color: $white;
+  }
+}
+
 .custom-carousel .carousel-indicators {
   margin-bottom: 27px;
   margin-right: 0;
